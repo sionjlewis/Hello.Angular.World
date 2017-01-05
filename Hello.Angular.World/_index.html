@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="en">
+    <!--<base href="/" />-->
+    <title>My iTunes Client App Test</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="Content/site.css" rel="stylesheet" />
+
+    <!-- Start Angular Setup -->
+    <!-- 1. Load libraries -->
+    <link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <link href="app/app.component.css" rel="stylesheet" />
+
+    <!-- Polyfill(s) for older browsers -->
+    <script src="node_modules/core-js/client/shim.min.js"></script>
+
+    <script src="node_modules/zone.js/dist/zone.js"></script>
+    <script src="node_modules/reflect-metadata/Reflect.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+
+    <!-- 2. Configure SystemJS -->
+    <script src="systemjs.config.js"></script>
+    <!-- 3. Add the "System.import(...)" statement to the View. -->
+    <script>
+        System.import('app').catch(function (err) {
+            console.error(err);
+        });
+    </script>
+    <!-- End Angular Setup   -->
+</head>
+<body>
+    <header>
+        <div class="title">
+            HTML Page
+        </div>
+    </header>
+    <main>
+        <my-app class="app-content">
+            <div class="app-loading">
+                App Loading...
+            </div>
+        </my-app>
+    </main>
+    <footer>
+        <p class="footer">&copy; 2017 - Hello Angular World with HTML</p>
+    </footer>
+</body>
+</html>

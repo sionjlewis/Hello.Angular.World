@@ -1,0 +1,22 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section title{
+    MVC Page
+}
+
+<!-- Start Angular Setup -->
+<!-- 3. Add the "System.import(...)" statement to the View. -->
+<script>
+    System.import('app').catch(function (err) {
+        console.error(err);
+    });
+</script>
+<!-- End Angular Setup   -->
+
+<my-app class="app-content">
+    <div class="app-loading">
+        App loading...
+    </div>
+</my-app>

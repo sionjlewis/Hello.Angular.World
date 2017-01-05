@@ -1,0 +1,19 @@
+﻿body {
+    color: #CCCCCC;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px;
+}
+
+.title {
+    color: #999999;
+    font-size: 16px;
+    font-weight: bold; 
+    padding: 5px 5px 10px 5px;
+}
+
+.footer {
+    color: #999999;
+    font-size: 9px;
+    font-style: italic;
+    padding: 15px 5px 20px 5px;
+}
