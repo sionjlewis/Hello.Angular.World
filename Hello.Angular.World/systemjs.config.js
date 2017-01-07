@@ -2,12 +2,12 @@
     System.config({
         //baseURL: '/',
         paths: {
-            // Paths serve as alias.
+            // Paths serve as alias (ASP.NET MVC: adding / to specify the root).
             'npm:': '/node_modules/'
         },
         // Map tells the System loader where to look for things.
         map: {
-            // Our app is within the app folder.
+            // Our app is within the app folder (ASP.NET MVC: adding / to specify the root).
             app: '/app',
 
             // Angular bundles.
