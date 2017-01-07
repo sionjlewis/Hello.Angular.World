@@ -7,7 +7,6 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "noImplicitAny": true,
-    //"outDir": "../lib",
     "removeComments": false,
     "sourceMap": true,
     "suppressImplicitAnyIndexErrors": true,
