@@ -108,7 +108,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\app.component.css" />
-    <Content Include="Content\site.css" />
+    <Content Include="Content\Site.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="systemjs.config.js" />
